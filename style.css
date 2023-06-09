@@ -1,0 +1,103 @@
+/* ==== defult css ====  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a
+{
+    text-decoration: none;
+}
+
+:root
+{
+    --btn-color:#ff418c;
+    --main-bg-color:#feeae9;
+}
+.defult-btn
+{
+    padding: 12px 22px;
+    display: inline-block;
+    background-color: var(--btn-color);
+    color: white;
+    border-radius: 10px;
+}
+.defult-btn:hover
+{
+    background-color: #f35695;
+}
+
+/* === main section css ===  */
+.main-section
+{
+    padding: 80px 50px;
+    background-color: var(--main-bg-color);
+}
+.carousel-text
+{
+    margin-top: 100px;
+}
+.carousel-text h2
+{
+    font-weight: 600;
+}
+.carousel-text p
+{
+    color: black;
+}
+
+/* ==== catagory title ========  */
+.catagory-title img
+{
+    width: 100px;
+}
+.catagory-title h1
+{
+    color: white;
+}
+
+/* ==== shoes section ===  */
+.shoes-box img
+{
+    width: 290px;
+    text-align: center;
+}
+.shoes-box
+{
+    box-shadow: 0 5px 25px rgb(0 0 0 / 20%);
+    padding: 20px;
+    border-radius: 9px;
+    transition: .3s;
+}
+.shoes-box:hover
+{
+    box-shadow: 0 5px 25px rgb(0 0 0 / 30%);
+}
+.shoes-title
+{
+    margin-top: 20px;
+}
+
+/* ===== stay box section ====  */
+.stay-box
+{
+    max-width: 500px;
+    margin: auto;
+}
+.stay-box input
+{
+    width: 75%;
+    padding: 8px;
+}
+.stay-box button
+{
+    border: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.stay-section
+{
+    background-color: var(--main-bg-color);
+}

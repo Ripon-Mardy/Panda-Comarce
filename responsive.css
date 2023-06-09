@@ -1,0 +1,18 @@
+@media screen and (max-width:978px)
+{
+    .p-3.d-flex.rounded-3.align-items-center.justify-content-between.bg-warning.catagory-title {
+        margin-bottom: 24px;
+    }
+    .p-3.d-flex.rounded-3.align-items-center.justify-content-between.bg-primary.catagory-title {
+        margin-top: 20px;
+    }
+    .shoes-box {
+        margin-top: 20px;
+    }
+} 
+@media screen and (max-width:426px) 
+{
+    img.w-100 {
+        width: 310px !important;
+    }
+}
